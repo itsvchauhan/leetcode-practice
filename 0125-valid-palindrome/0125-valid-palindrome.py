@@ -13,7 +13,7 @@ class Solution:
 
         check = True
 
-        for i in range(len(new)):
+        for i in range(int(len(new)/2)):
             if new[i] != new[len(new)-1-i]:
                 check = False
 
