@@ -9,11 +9,9 @@ class Solution:
                     c = c.lower()
                 new += c
 
-        check = True
-
         for i in range(int(len(new)/2)):
             if new[i] != new[len(new)-1-i]:
-                check = False
-
-        return check
+                return False         
+        else:
+            return True
         
