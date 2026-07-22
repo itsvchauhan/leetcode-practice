@@ -10,7 +10,6 @@ class Solution:
                 new += c
 
         print(new)
-
         check = True
 
         for i in range(int(len(new)/2)):
